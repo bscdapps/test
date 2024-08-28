@@ -22,7 +22,7 @@
 use std::{sync::Arc, time::Duration};
 
 // Local Runtime Types
-pub use diora_runtime::{opaque::Block, Hash, RuntimeApi};
+pub use pixel_runtime::{opaque::Block, Hash, RuntimeApi};
 
 use nimbus_consensus::{BuildNimbusConsensusParams, NimbusConsensus};
 

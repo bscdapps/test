@@ -1,6 +1,6 @@
 [package]
 name = "pixel-node"
-authors = [ "Diora Developer" ]
+authors = [ "Pixel Developer" ]
 build = "build.rs"
 edition = "2021"
 version = "0.9.38"

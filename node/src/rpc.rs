@@ -165,7 +165,7 @@ where
 				Arc::clone(&client),
 				Arc::clone(&pool),
 				graph,
-				Some(diora_runtime::TransactionConverter),
+				Some(pixel_runtime::TransactionConverter),
 				Arc::clone(&network),
 				Vec::new(),
 				Arc::clone(&overrides),

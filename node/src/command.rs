@@ -24,7 +24,7 @@ use crate::{
 use codec::Encode;
 use cumulus_client_cli::generate_genesis_block;
 use cumulus_primitives_core::ParaId;
-use diora_runtime::Block;
+use pixel_runtime::Block;
 use frame_benchmarking_cli::BenchmarkCmd;
 use log::info;
 use sc_cli::{

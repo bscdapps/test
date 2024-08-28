@@ -72,7 +72,7 @@ impl sc_executor::NativeExecutionDispatch for DioraRuntimeExecutor {
 	}
 
 	fn native_version() -> sc_executor::NativeVersion {
-		diora_runtime::native_version()
+		pixel_runtime::native_version()
 	}
 }
 

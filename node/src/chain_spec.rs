@@ -14,7 +14,7 @@
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 use cumulus_primitives_core::ParaId;
-use diora_runtime::{
+use pixel_runtime::{
 	AccountId, AuthorFilterConfig, AuthorMappingConfig, Balance, BalancesConfig, BlockRewardConfig,
 	EVMConfig, EligibilityValue, EthereumChainIdConfig, GenesisConfig, InflationInfo, NimbusId,
 	ParachainInfoConfig, ParachainStakingConfig, Perbill, Precompiles, Range, Signature,

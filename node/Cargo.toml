@@ -1,5 +1,5 @@
 [package]
-name = "diora-node"
+name = "pixel-node"
 authors = [ "Diora Developer" ]
 build = "build.rs"
 edition = "2021"

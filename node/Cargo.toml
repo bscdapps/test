@@ -9,7 +9,7 @@ version = "0.9.38"
 targets = [ "x86_64-unknown-linux-gnu" ]
 
 [[bin]]
-name = "diora"
+name = "pixel"
 path = "src/main.rs"
 
 [dependencies]

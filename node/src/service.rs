@@ -68,7 +68,7 @@ impl sc_executor::NativeExecutionDispatch for DioraRuntimeExecutor {
 	type ExtendHostFunctions = frame_benchmarking::benchmarking::HostFunctions;
 
 	fn dispatch(method: &str, data: &[u8]) -> Option<Vec<u8>> {
-		diora_runtime::api::dispatch(method, data)
+		pixel_runtime::api::dispatch(method, data)
 	}
 
 	fn native_version() -> sc_executor::NativeVersion {

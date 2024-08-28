@@ -18,7 +18,7 @@
 
 #![warn(missing_docs)]
 
-use diora_runtime::{opaque::Block, AccountId, Balance, Hash, Index};
+use pixel_runtime::{opaque::Block, AccountId, Balance, Hash, Index};
 use futures::StreamExt;
 pub use sc_rpc_api::DenyUnsafe;
 use sc_service::TaskManager;

@@ -116,5 +116,5 @@ pallet-evm = { git="https://github.com/Diora-Network/frontier", branch = "polkad
 substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.38" }
 
 [features]
-runtime-benchmarks = [ "diora-runtime/runtime-benchmarks" ]
-try-runtime = [ "diora-runtime/try-runtime" ]
+runtime-benchmarks = [ "pixel-runtime/runtime-benchmarks" ]
+try-runtime = [ "pixel-runtime/try-runtime" ]

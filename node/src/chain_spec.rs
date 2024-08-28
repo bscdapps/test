@@ -98,7 +98,7 @@ pub fn development_config() -> ChainSpec {
 		"dev",
 		ChainType::Development,
 		move || {
-			testnet_genesis(
+			diora_genesis(
 				// initial collators.
 				vec![(
 						 get_account_id_from_seed::<sr25519::Public>("Alice"),
